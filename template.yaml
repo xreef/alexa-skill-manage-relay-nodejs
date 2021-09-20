@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      CodeUri: functions/lambda/skill-esp8266-nodejs-smarthome-switch
+      Runtime: nodejs12.x
+      Timeout: 300
+      MemorySize: 128
