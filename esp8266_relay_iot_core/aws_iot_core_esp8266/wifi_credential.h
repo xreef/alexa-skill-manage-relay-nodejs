@@ -1,0 +1,3 @@
+char WIFI_SSID[] = "<YOUR-SSID>";
+char WIFI_PASSWORD[] = "<YOUR-PASSWD>";
+
